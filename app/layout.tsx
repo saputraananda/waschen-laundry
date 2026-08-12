@@ -143,7 +143,11 @@ export const metadata: Metadata = {
     images: ["/logo/logo-waschen.png"],
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/logo/logo-waschen.png", type: "image/png" },
+      { url: "/logo/logo-waschen.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/logo/logo-waschen.png",
     apple: "/logo/logo-waschen.png",
   },
   manifest: "/manifest.webmanifest",

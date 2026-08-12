@@ -11,9 +11,9 @@ export default function manifest(): MetadataRoute.Manifest {
     theme_color: "#631F48",
     icons: [
       {
-        src: "/favicon.ico",
+        src: "/logo/logo-waschen.png",
         sizes: "any",
-        type: "image/x-icon",
+        type: "image/png",
       },
       {
         src: "/logo/logo-waschen.png",
