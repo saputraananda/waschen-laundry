@@ -213,7 +213,7 @@ export function HeroSection() {
                 </video>
             </div>
 
-            <div className="absolute right-[2%] sm:right-[4%] md:right-[6%] -bottom-20 sm:-bottom-28 md:-bottom-36 z-10 pointer-events-none w-[300px] sm:w-[440px] md:w-[560px] lg:w-[660px] h-[380px] sm:h-[540px] md:h-[680px] lg:h-[780px] flex items-end justify-center">
+            <div className="absolute right-[1%] sm:right-[4%] md:right-[6%] -bottom-14 sm:-bottom-28 md:-bottom-36 z-10 pointer-events-none w-[360px] sm:w-[440px] md:w-[560px] lg:w-[660px] h-[450px] sm:h-[540px] md:h-[680px] lg:h-[780px] flex items-end justify-center">
                 <ChromaKeyMascot src="/hero-section/mascot-waschen.mp4" />
             </div>
 

@@ -30,58 +30,58 @@ export function WhyChooseUs() {
     }, []);
 
     return (
-        <section ref={sectionRef} className="w-full mt-20 overflow-hidden">
-            <div className="mx-auto flex flex-col items-center relative">
+        <section ref={sectionRef} className="w-full mt-14 sm:mt-20 overflow-hidden">
+            <div className="mx-auto flex flex-col items-center relative px-4 sm:px-0">
                 <div
-                    className={`absolute -top-5 z-20 max-w-3xl w-full bg-white rounded-[28px] sm:rounded-[36px] shadow-2xl border-2 border-slate-100 p-6 sm:p-10 -mb-16 sm:-mb-24 transition-all duration-700 ease-out transform ${
+                    className={`relative sm:absolute -top-3 sm:-top-5 z-20 max-w-3xl w-full bg-white rounded-[24px] sm:rounded-[36px] shadow-2xl border-2 border-slate-100 p-5 sm:p-10 -mb-4 sm:-mb-24 transition-all duration-700 ease-out transform ${
                         isVisible
                             ? "opacity-100 translate-y-0"
                             : "opacity-0 translate-y-8"
                     }`}
                 >
-                    <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-center tracking-tight mb-6 sm:mb-8">
+                    <h2 className="text-2xl sm:text-4xl md:text-5xl font-extrabold text-center tracking-tight mb-4 sm:mb-8">
                         <span className="text-[#631F48]">Why </span>
                         <span className="text-[#C2982B]">Choose </span>
                         <span className="text-[#631F48]">Us</span>
                     </h2>
 
-                    <div className="grid grid-cols-3 gap-2 sm:gap-6 items-center">
-                        <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3 text-center sm:text-left px-1 sm:px-4">
-                            <div className="w-10 h-10 sm:w-12 sm:h-12 shrink-0 flex items-center justify-center rounded-2xl bg-[#8C3A69]/10 text-[#8C3A69]">
-                                <ShieldCheck className="w-6 h-6 sm:w-7 sm:h-7 stroke-[2]" />
+                    <div className="grid grid-cols-3 gap-1.5 sm:gap-6 items-center">
+                        <div className="flex flex-col sm:flex-row items-center justify-center gap-1.5 sm:gap-3 text-center sm:text-left px-1 sm:px-4">
+                            <div className="w-9 h-9 sm:w-12 sm:h-12 shrink-0 flex items-center justify-center rounded-xl sm:rounded-2xl bg-[#8C3A69]/10 text-[#8C3A69]">
+                                <ShieldCheck className="w-5 h-5 sm:w-7 sm:h-7 stroke-[2]" />
                             </div>
-                            <span className="text-slate-800 font-bold text-xs sm:text-sm md:text-base leading-tight">
+                            <span className="text-slate-800 font-bold text-[11px] sm:text-sm md:text-base leading-snug">
                                 Higienis <br className="hidden sm:block" /> dan Aman
                             </span>
                         </div>
 
-                        <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3 text-center sm:text-left border-x border-slate-200 px-1 sm:px-4">
-                            <div className="w-10 h-10 sm:w-12 sm:h-12 shrink-0 flex items-center justify-center rounded-2xl bg-[#8C3A69]/10 text-[#8C3A69]">
-                                <PackageCheck className="w-6 h-6 sm:w-7 sm:h-7 stroke-[2]" />
+                        <div className="flex flex-col sm:flex-row items-center justify-center gap-1.5 sm:gap-3 text-center sm:text-left border-x border-slate-200 px-1 sm:px-4">
+                            <div className="w-9 h-9 sm:w-12 sm:h-12 shrink-0 flex items-center justify-center rounded-xl sm:rounded-2xl bg-[#8C3A69]/10 text-[#8C3A69]">
+                                <PackageCheck className="w-5 h-5 sm:w-7 sm:h-7 stroke-[2]" />
                             </div>
-                            <span className="text-slate-800 font-bold text-xs sm:text-sm md:text-base leading-tight">
+                            <span className="text-slate-800 font-bold text-[11px] sm:text-sm md:text-base leading-snug">
                                 Free pickup <br className="hidden sm:block" /> and delivery
                             </span>
                         </div>
 
-                        <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3 text-center sm:text-left px-1 sm:px-4">
-                            <div className="w-10 h-10 sm:w-12 sm:h-12 shrink-0 flex items-center justify-center rounded-2xl bg-[#8C3A69]/10 text-[#8C3A69]">
-                                <Sparkles className="w-6 h-6 sm:w-7 sm:h-7 stroke-[2]" />
+                        <div className="flex flex-col sm:flex-row items-center justify-center gap-1.5 sm:gap-3 text-center sm:text-left px-1 sm:px-4">
+                            <div className="w-9 h-9 sm:w-12 sm:h-12 shrink-0 flex items-center justify-center rounded-xl sm:rounded-2xl bg-[#8C3A69]/10 text-[#8C3A69]">
+                                <Sparkles className="w-5 h-5 sm:w-7 sm:h-7 stroke-[2]" />
                             </div>
-                            <span className="text-slate-800 font-bold text-xs sm:text-sm md:text-base leading-tight">
+                            <span className="text-slate-800 font-bold text-[11px] sm:text-sm md:text-base leading-snug">
                                 Jaminan <br className="hidden sm:block" /> Kehilangan
                             </span>
                         </div>
                     </div>
                 </div>
 
-                <div className="relative w-full pt-10 sm:pt-16">
+                <div className="relative w-full pt-4 sm:pt-16">
                     <Image
                         src="/why-choose-us/background.png"
                         alt="Keunggulan Waschen Laundry Premium - Jasa Laundry Antar Jemput Free Pickup Delivery Jabodetabek"
                         width={1920}
                         height={1080}
-                        className="w-full h-auto object-cover"
+                        className="w-full h-auto object-cover rounded-2xl sm:rounded-none"
                         priority
                     />
                 </div>
@@ -90,10 +90,10 @@ export function WhyChooseUs() {
                     href="https://wa.me/6285122333371"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className={`absolute md:bottom-20 sm:bottom-12 bottom-8 md:left-36 sm:left-12 left-6 z-20 flex items-center gap-3 sm:gap-4 bg-[#631F48] border-3 sm:border-4 border-white md:rounded-xl sm:rounded-md px-4 sm:px-6 py-3 sm:py-4 shadow-2xl transition-all duration-500 ease-out delay-100 transform hover:scale-105 hover:bg-[#501739] active:scale-95 group ${
+                    className={`relative sm:absolute -mt-6 sm:mt-0 mb-4 sm:mb-0 mx-auto sm:mx-0 sm:left-12 md:left-36 sm:bottom-12 md:bottom-20 z-20 flex items-center justify-center sm:justify-start gap-3 sm:gap-4 bg-[#631F48] border-3 sm:border-4 border-white rounded-2xl sm:rounded-xl md:rounded-xl px-5 sm:px-6 py-3 sm:py-4 shadow-2xl transition-all duration-500 ease-out delay-100 transform hover:scale-105 hover:bg-[#501739] active:scale-95 group max-w-xs sm:max-w-none ${
                         isVisible
-                            ? "opacity-100 translate-x-0"
-                            : "opacity-0 -translate-x-20"
+                            ? "opacity-100 translate-y-0 sm:translate-x-0"
+                            : "opacity-0 translate-y-8 sm:-translate-x-20"
                     }`}
                 >
                     <div className="w-10 h-10 sm:w-14 sm:h-14 shrink-0 bg-[#25D366] rounded-xl sm:rounded-2xl flex items-center justify-center shadow-md transition-transform duration-300 group-hover:scale-110">

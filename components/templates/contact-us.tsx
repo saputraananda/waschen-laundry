@@ -65,9 +65,9 @@ export function ContactUs() {
 
     return (
         <section ref={sectionRef} className="w-full overflow-hidden">
-            <div className="flex flex-col sm:flex-row w-full" style={{ minHeight: 340 }}>
+            <div className="flex flex-col-reverse sm:flex-row w-full items-center" style={{ minHeight: 340 }}>
                 <div
-                    className={`pt-20 transition-all duration-500 ease-out transform ${
+                    className={`w-full sm:w-1/2 pt-4 sm:pt-20 transition-all duration-500 ease-out transform ${
                         isVisible
                             ? "opacity-100 translate-x-0"
                             : "opacity-0 -translate-x-16"
@@ -84,14 +84,14 @@ export function ContactUs() {
                 </div>
 
                 <div
-                    className={`flex-1 flex flex-col justify-center items-center px-10 sm:px-14 py-12 gap-5 transition-all duration-500 ease-out delay-75 transform ${
+                    className={`w-full sm:w-1/2 flex-1 flex flex-col justify-center items-center px-6 sm:px-14 py-10 sm:py-12 gap-5 transition-all duration-500 ease-out delay-75 transform ${
                         isVisible
                             ? "opacity-100 translate-x-0"
                             : "opacity-0 translate-x-16"
                     }`}
                 >
                     <div>
-                        <h2 className="text-4xl sm:text-5xl font-extrabold mb-5">
+                        <h2 className="text-4xl sm:text-5xl font-extrabold mb-5 text-center sm:text-left">
                             <span className="text-[#631F48]">Contact </span>
                             <span className="text-[#C2982B]">Us</span>
                         </h2>
