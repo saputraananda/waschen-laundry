@@ -65,6 +65,8 @@ export function JsonLd() {
       { "@type": "City", name: "Raffles Hills" },
       { "@type": "City", name: "Legenda Wisata" },
       { "@type": "City", name: "Citra Gran" },
+      { "@type": "City", name: "Jatikarya" },
+      { "@type": "City", name: "Jatisampurna" },
       { "@type": "City", name: "Gunung Putri" },
       { "@type": "AdministrativeArea", name: "Jabodetabek" },
     ],
