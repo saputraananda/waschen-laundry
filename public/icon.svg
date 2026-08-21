@@ -1,0 +1,53 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#491334" />
+      <stop offset="50%" stop-color="#631F48" />
+      <stop offset="100%" stop-color="#852C51" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7DF8B" />
+      <stop offset="50%" stop-color="#E8BD44" />
+      <stop offset="100%" stop-color="#C2982B" />
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- Outer Rounded Square Background -->
+  <rect x="16" y="16" width="480" height="480" rx="108" fill="url(#bgGrad)" stroke="url(#goldGrad)" stroke-width="8" />
+
+  <!-- Inner Subtle Glow Ring -->
+  <rect x="36" y="36" width="440" height="440" rx="88" fill="none" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="3" />
+
+  <!-- Main Emblem Group -->
+  <g filter="url(#dropShadow)">
+    <!-- Waschen Dynamic 'W' Emblem -->
+    <path d="M 128 160 
+             C 128 160, 164 320, 188 348 
+             C 200 362, 220 362, 232 344 
+             L 256 304 
+             L 280 344 
+             C 292 362, 312 362, 324 348 
+             C 348 320, 384 160, 384 160 
+             L 340 160 
+             L 312 284 
+             L 276 228 
+             C 268 216, 244 216, 236 228 
+             L 200 284 
+             L 172 160 
+             Z" 
+          fill="url(#goldGrad)" />
+
+    <!-- Fresh Laundry Soap Bubbles & Sparkles -->
+    <circle cx="360" cy="148" r="20" fill="url(#goldGrad)" opacity="0.95" />
+    <circle cx="360" cy="148" r="14" fill="#631F48" opacity="0.4" />
+    
+    <circle cx="395" cy="180" r="12" fill="url(#goldGrad)" opacity="0.85" />
+    <circle cx="132" cy="136" r="14" fill="url(#goldGrad)" opacity="0.9" />
+
+    <!-- Sparkle Stars -->
+    <path d="M 256 124 L 260 140 L 276 144 L 260 148 L 256 164 L 252 148 L 236 144 L 252 140 Z" fill="url(#goldGrad)" />
+  </g>
+</svg>
