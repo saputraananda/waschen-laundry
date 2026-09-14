@@ -57,13 +57,13 @@ export function Footer() {
                     <div className="lg:col-span-4 flex flex-col items-start gap-5">
                         <Image
                             src="/logo/logo-white-waschen.svg"
-                            alt="Waschen Laundry - PT Waschen Alora Indonesia Layanan Laundry Premium & B2B"
+                            alt="Waschen Laundry - Alora Group Layanan Laundry Premium & B2B"
                             width={160}
                             height={70}
                             className="object-contain filter drop-shadow-md"
                         />
                         <p className="text-slate-200/90 text-sm leading-relaxed font-medium">
-                            <strong className="text-white font-semibold">Waschen Laundry</strong> (PT Waschen Alora Indonesia) menghadirkan layanan perawatan laundry &amp; tekstil profesional berstandar tinggi untuk kebutuhan B2B &amp; B2C secara terpercaya, higienis, dan berkualitas.
+                            <strong className="text-white font-semibold">Waschen Laundry</strong> (Alora Group) menghadirkan layanan perawatan laundry &amp; tekstil profesional berstandar tinggi untuk kebutuhan B2B &amp; B2C secara terpercaya, higienis, dan berkualitas.
                         </p>
 
                         <div className="flex items-center gap-3 mt-2">
@@ -138,7 +138,7 @@ export function Footer() {
                         <div className="flex flex-col gap-3 text-slate-200/85 text-sm">
                             <div className="flex items-start gap-3">
                                 <MapPin className="w-5 h-5 text-[#E8BD44] shrink-0 mt-0.5" />
-                                <span>PT Waschen Alora Indonesia, Cibubur, Indonesia</span>
+                                <span>Alora Group, Cibubur, Indonesia</span>
                             </div>
                             <div className="flex items-center gap-3">
                                 <Phone className="w-4.5 h-4.5 text-[#E8BD44] shrink-0" />
@@ -180,7 +180,7 @@ export function Footer() {
             <div className="w-full py-5 px-6 bg-[#2B091E] border-t border-white/5 text-center text-slate-400 text-xs sm:text-sm">
                 <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
                     <p>
-                        © {new Date().getFullYear()} <strong className="text-white font-semibold">PT Waschen Alora Indonesia</strong>. All Rights Reserved.
+                        © {new Date().getFullYear()} <strong className="text-white font-semibold">Alora Group</strong>. All Rights Reserved.
                     </p>
                     <p className="text-slate-400/80">
                         Professional B2B &amp; B2C Laundry Services

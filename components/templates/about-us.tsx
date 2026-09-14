@@ -67,7 +67,7 @@ export function AboutUs() {
 
                             <p className="text-slate-700 font-medium text-base leading-relaxed sm:pl-18 mt-2">
                                 <strong className="font-extrabold text-slate-900">Waschen Laundry</strong> adalah bagian dari{" "}
-                                <strong className="font-extrabold text-slate-900">PT Waschen Alora Indonesia</strong>, yang menawarkan perawatan{" "}
+                                <strong className="font-extrabold text-slate-900">Alora Group</strong>, yang menawarkan perawatan{" "}
                                 <strong className="font-extrabold text-slate-900">laundry premium</strong> yang melayani kebutuhan{" "}
                                 <strong className="font-extrabold text-slate-900">B2B</strong> (perhotelan, korporat, mitra retail) maupun{" "}
                                 <strong className="font-extrabold text-slate-900">B2C</strong> (perorangan, keluarga).
@@ -147,7 +147,7 @@ export function AboutUs() {
                     <div className="relative w-full max-w-[480px] lg:max-w-[540px] group cursor-pointer transition-transform duration-500 ease-out transform group-hover:scale-[1.04]">
                         <Image
                             src="/about-us/side-about-us.svg"
-                            alt="Waschen Laundry - PT Waschen Alora Indonesia Layanan Laundry Premium & B2B Hotel Rumah Sakit"
+                            alt="Waschen Laundry - Alora Group Layanan Laundry Premium & B2B Hotel Rumah Sakit"
                             width={540}
                             height={540}
                             className="w-full h-auto object-contain"
