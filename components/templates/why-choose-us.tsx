@@ -77,10 +77,10 @@ export function WhyChooseUs() {
 
                 <div className="relative w-full pt-4 sm:pt-16">
                     <Image
-                        src="/why-choose-us/background.png"
+                        src="/why-choose-us/bg.png"
                         alt="Keunggulan Waschen Laundry Premium - Jasa Laundry Antar Jemput Free Pickup Delivery Jabodetabek"
-                        width={1920}
-                        height={1080}
+                        width={1421}
+                        height={678}
                         className="w-full h-auto object-cover rounded-2xl sm:rounded-none"
                         priority
                     />
