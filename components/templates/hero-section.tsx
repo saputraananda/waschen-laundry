@@ -306,7 +306,7 @@ export function HeroSection() {
                     <div className="flex flex-col items-center text-center">
                         <Calendar className="w-6 h-6 sm:w-7 sm:h-7 text-[#5B1C41] mb-1" />
                         <span className="text-lg sm:text-2xl font-extrabold text-[#C2982B]">
-                            <AnimatedNumber value={2012} />
+                            <AnimatedNumber value={2013} />
                         </span>
                         <span className="text-xs sm:text-sm font-semibold text-slate-700 mt-0.5">
                             Didirikan
